@@ -21,7 +21,7 @@ gradlePlugin{
 
         }
         register("androidApplicationCompose"){
-            id = "runv1.android.application.Compose"
+            id = "runv1.android.application.compose"
             implementationClass = "AndroidApplicationComposeConventionPlugin"
 
         }
