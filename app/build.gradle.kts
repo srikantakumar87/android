@@ -1,8 +1,10 @@
 plugins {
     //alias(libs.plugins.android.application)
-    alias(libs.plugins.jetbrains.kotlin.android)
+    //alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.runv1.android.application.compose)
+    alias(libs.plugins.mapsplatform.secrets.plugin)
     alias(libs.plugins.compose.compiler)
-    alias(libs.plugins.runv1.android.application)
+
 
 }
 
@@ -21,9 +23,6 @@ android {
 
 
 
-    buildFeatures {
-        compose = true
-    }
 
     packaging {
         resources {
