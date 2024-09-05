@@ -12,3 +12,14 @@ dependencies{
 
 
 }
+
+gradlePlugin{
+    plugins{
+        register("androidApplication"){
+            id = "runv1.android.application"
+            implementationClass = "AndroidApplicationConventionPlugin"
+
+        }
+    }
+
+}
