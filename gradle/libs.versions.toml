@@ -130,6 +130,8 @@ runv1-android-library-compose = {id = "runv1.android.library.compose", version="
 runv1-android-feature-ui = {id = "runv1.android.feature.ui", version="1.0.0"}
 runv1-android-room = {id = "runv1.android.room", version="1.0.0"}
 runv1-jvm-library = {id = "runv1.jvm.library", version="1.0.0"}
+runv1-jvm-ktor = {id = "runv1.jvm.ktor", version="1.0.0"}
+
 
 
 [bundles]
@@ -148,4 +150,12 @@ compose-debug = [
 ]
 koin = ["koin-core", "koin-android", "koin-android-workmanager"]
 koin-compose = ["koin-core", "koin-android", "koin-android-workmanager", "koin-androidx-compose"]
+ktor = [
+    "ktor-client-auth",
+    "ktor-client-cio",
+    "ktor-client-content-negotiation",
+    "ktor-client-core",
+    "ktor-client-logging",
+    "ktor-serialization-kotlinx-json"
+]
 

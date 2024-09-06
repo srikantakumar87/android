@@ -2,6 +2,7 @@ plugins {
     //alias(libs.plugins.android.application)
     //alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.runv1.android.application.compose)
+    alias(libs.plugins.runv1.jvm.ktor)
     alias(libs.plugins.mapsplatform.secrets.plugin)
     alias(libs.plugins.compose.compiler)
 
