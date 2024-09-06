@@ -129,6 +129,8 @@ runv1-android-library = {id = "runv1.android.library", version="1.0.0"}
 runv1-android-library-compose = {id = "runv1.android.library.compose", version="1.0.0"}
 runv1-android-feature-ui = {id = "runv1.android.feature.ui", version="1.0.0"}
 runv1-android-room = {id = "runv1.android.room", version="1.0.0"}
+runv1-jvm-library = {id = "runv1.jvm.library", version="1.0.0"}
+
 
 [bundles]
 compose = [
